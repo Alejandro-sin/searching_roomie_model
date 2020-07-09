@@ -1,0 +1,250 @@
+/*----------$COLORS----------*/
+/**
+* Branding Colors
+*/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+.search {
+  width: 100%;
+  margin: 50px 0;
+  text-align: center;
+}
+.search form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.search form div {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-right: 100px;
+}
+.search form div label {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.search form button {
+  height: 50px;
+  width: 150px;
+  background-color: #C70039;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #fff;
+  box-shadow: 1px 10px 5px rgba(164, 111, 225, 0.3);
+}
+.search .searchInput {
+  width: 400px;
+  height: 50px;
+  border: 1px solid #707070;
+  border-radius: 30px;
+  font-size: 17px;
+  font-weight: bold;
+  padding-left: 20px;
+  outline: none;
+}
+.search ::placeholder {
+  color: #959595;
+}
+
+.headerPrimary {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 90vw;
+  height: 100px;
+  background-color: #FAFAFA;
+}
+
+.navHeader ul {
+  padding: 30px 50px;
+}
+.navHeader ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+.navHeader ul a {
+  color: #051026;
+  font-family: "Lato", sans-serif;
+}
+@media only screen and (min-width: 992px) {
+  .navHeader ul {
+    display: flex;
+  }
+}
+
+.headerHeart {
+  display: none;
+  margin-left: auto;
+  padding-top: 30px;
+}
+.headerHeart:hover {
+  text-decoration: none;
+}
+.headerHeart i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: yellowgreen;
+}
+.headerHeart span {
+  color: #051026;
+  font-family: "Lato", sans-serif;
+}
+@media only screen and (min-width: 992px) {
+  .headerHeart {
+    display: flex;
+  }
+}
+
+.Footer__logo {
+  height: 200px;
+  width: 100%;
+  background-color: #C70039;
+}
+.Footer__logo p {
+  margin-left: 150px;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.Footer__logo p span {
+  font-size: 100px;
+}
+.Footer__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.principal div .line {
+  width: 145px;
+  border: 3px solid #900C3F;
+  border-radius: 1rem;
+  position: absolute;
+}
+.principal div h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #051026;
+  margin-left: 140px;
+}
+.principal__rooms-card {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-content: center;
+  margin: 50px 0;
+}
+.principal__rooms-card a {
+  transition: 0.3s all ease-in-out;
+}
+.principal__rooms-card .room-card {
+  width: 350px;
+  height: 550px;
+  padding: 10px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.principal__rooms-card .room-card div {
+  height: 90%;
+}
+.principal__rooms-card .room-card div > figure {
+  height: 100%;
+  width: 100%;
+}
+.principal__rooms-card .room-card div > figure > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.principal__rooms-card .room-card .description__dept {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  margin-top: 5px;
+}
+.principal__rooms-card .room-card .description__dept .img__user {
+  width: 50px;
+  height: 50px;
+}
+.principal__rooms-card .room-card .description__dept .img__user img {
+  object-fit: cover;
+  border-radius: 50%;
+}
+.principal__rooms-card .room-card .description__dept article {
+  display: flex;
+}
+.principal__rooms-card .room-card .description__dept article figure {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.principal__rooms-card .room-card .description__dept article figure img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.modal__register {
+  display: none;
+}

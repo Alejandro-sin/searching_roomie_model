@@ -1,0 +1,47 @@
+.headerPrimary {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 90vw;
+  height: 100px;
+  background-color: $color-withe;
+}
+
+.navHeader ul {
+  padding: 30px 50px;
+
+  li {
+    list-style: none;
+    margin-right: 50px;
+  }
+
+  a {
+    color: $color-black;
+    @include title ($Typographic-font1);
+  }
+
+  @include m-query(desktop-s) {
+    display: flex;
+  }
+}
+
+.headerHeart {
+  display: none;
+  margin-left: auto;
+  padding-top: 30px;
+  &:hover {
+    text-decoration: none;
+  }
+  i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: yellowgreen;
+  }
+  span {
+    color: $color-black;
+    @include title ($Typographic-font1);
+  }
+  @include m-query(desktop-s) {
+    display: flex;
+  }
+}
