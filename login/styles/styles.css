@@ -1,0 +1,83 @@
+.background {
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.226);
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+}
+.background__modal-login {
+    background-color:#FFFFFF;
+    width: 662px;
+    height: 530px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 25px;
+}
+.background__modal-login--line {
+    margin-top: 63px;
+    margin-left: 129px;
+}
+.background__modal-login h2 {
+    position: absolute;
+    color: #051026;
+    font-size: 36px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: -35px;
+    margin-left: 320px;
+}
+.background__modal-login--close {
+    position: absolute;
+    width: 20px;
+    margin-top: 55px;
+    margin-left: 32px;
+}
+.background__modal-login form {
+    text-align: left;
+    margin-left: 32px ;
+    margin-top: 40px;
+}
+.background__modal-login input {
+    border-radius: 11px;
+    border: 1px solid #707070;
+    height:60px ;
+    width: 596px;
+    font-size: 17px;
+    color: #C70039;
+    font-weight: bold;
+    margin: 32px 0px 0px 0px;
+}
+.background__modal-login button {
+    background-color:#C70039;
+    border-radius: 11px;
+    border: none;
+    height: 60px;
+    width: 596px;
+    font-size: 24px;
+    font-weight: bold;
+    color:#FFFFFF;
+    margin: 72px 0px 0px 32px;
+}
+.background__modal-login__register {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 16px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.background__modal-login__register a {
+    padding: 10px;
+    text-decoration: none;
+    color: #4A3F35;
+}
+.background__modal-login__register, a:hover {
+    color: #C70039 ;
+}
+.background__modal-login__register p {
+    color: #4A3F35 ;
+}
