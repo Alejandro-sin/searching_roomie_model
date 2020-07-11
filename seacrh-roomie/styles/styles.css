@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FAFAFA ;
+}
+header {
+  align-items: center;
+  background:#FAFAFA;
+  color: #FFFFFF;
+  display: grid;
+  grid-template-columns: .5fr 3fr .5fr;
+  height: 164px;
+  top: 0px;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header__nav--logo img {
+  width: 185px;
+  height: 58px;
+}
+.header__search input {
+  margin-left: 45px;
+  border-radius: 35px;
+  border: 1px solid #707070;
+  height:35px ;
+  width: 200px;
+  color: #959595;
+  font-size: 15px;
+}
+.header__search button {
+  margin-left: 45px;
+  border-radius: 35px;
+  background-color:#C70039;
+  border-color: none;
+  border: 1px solid #C70039;
+  height: 45px;
+  width: 150px ;
+}
+.header__search button a, a:hover {
+    text-decoration: none;
+}
+.header__search button a {
+  color: #FAFAFA;
+  font-size: 25px ;
+}
+.header__search button img {
+  margin-top: 5px;
+  margin-left: 22px;
+  width: 21px;
+  height: 21px;
+}
+.header__menu ul {
+  display: none;
+  list-style: none;
+  margin: 60px 0px 0px -40px;
+  padding: 0px;
+  position: absolute;
+  width: 100px;
+  text-align: right;
+}
+.header__menu:hover ul, ul:hover {
+	display: block;
+}
+
+.header__menu li {
+  margin: 2px -7px;
+}
+
+.header__menu li a {
+  color: #C70039;
+  text-decoration: none;
+}
+
+.header__menu li a:hover {
+  text-decoration: underline;
+}
+
+.header__menu--profile {
+  width: 66px;
+  height: auto;
+}
+.header__menu {
+  display: flex;
+  justify-items: flex-end;
+  align-items: center;
+  justify-self: end;
+  cursor: pointer;
+}
+.rooms {
+  display: grid;
+  grid-template-columns: repeat(3, 320px);
+  grid-gap: 20px;
+  justify-content: center;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  top: 0;
+}
+.card {
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  width: 100%;
+  height: 523px;
+  background-color: #FFFFFF;
+  margin: 0;
+}
+.card__room img{
+  width: 100%;
+  height: 450px;
+}
+.card__room--cost {
+  position: absolute;
+  left: 8px;
+  top: 340px;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 36px;
+  color: rgba(224,224,226,1);
+  letter-spacing: 0.5px;
+}
+.card__room--zone {
+  position: absolute;
+  left: 8px;
+  top: 405px;
+  text-align: left;
+  font-family: Open Sans;
+  font-size: 16px;
+  color: rgba(224,224,226,1);
+  letter-spacing: 0.4px;
+}
+.card__room--description {
+  position: absolute;
+	left: 140px;
+	top: 374px;
+	text-align: left;
+	font-family: Open Sans;
+  font-size: 12px;
+  color: rgba(224,224,226,1);
+  letter-spacing: 0.4px;
+}
+.card__host--photo {
+  position: absolute;
+	width: 66px;
+	height: 61px;
+	left: 11px;
+	top: 458px;
+}
+.card__host--services {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  left: 150px;
+}
+.card__host--services img {
+  width: 28px;
+  height: auto;
+  margin-left: 10px;
+  margin-top: 20px;
+}
